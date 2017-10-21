@@ -4,9 +4,9 @@
 from .cartoonmadbase import CartoonMadBaseBook
 
 def getBook():
-    return Shiji
+    return Yaren
 
-class Shiji(CartoonMadBaseBook):
+class Yaren(CartoonMadBaseBook):
     title               = u'亚人'
     description         = u'People don't die.'
     language            = 'zh-tw'
